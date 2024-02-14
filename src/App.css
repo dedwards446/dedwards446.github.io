@@ -1,0 +1,79 @@
+/* App.css */
+
+/* Import react-slick styles */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ff6666; /* Bright red background */
+  color: #fff; /* White text color */
+}
+
+/* Container styles */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 3rem; /* Large font size */
+  margin-bottom: 30px;
+  color: #fff; /* White text color */
+  text-shadow: 2px 2px 4px #000; /* Text shadow for emphasis */
+}
+
+/* Button styles */
+button {
+  background-color: #ff0000; /* Bright red button color */
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Larger padding */
+  font-size: 1.5rem; /* Larger font size */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #cc0000; /* Darker red color on hover */
+}
+
+/* Characters container styles */
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Character card styles */
+.character {
+  margin: 20px;
+  padding: 20px;
+  border: 4px solid #fff; /* White border */
+  border-radius: 20px; /* Larger border radius */
+  width: 300px; /* Larger width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Stronger box shadow */
+}
+
+.character img {
+  width: 200px; /* Larger image width */
+  border-radius: 50%;
+  border: 6px solid #ff0000; /* Red border around character images */
+  margin-bottom: 20px; /* Larger margin */
+}
+
+.character h2 {
+  font-size: 2rem; /* Larger font size for character names */
+  margin-bottom: 20px; /* Larger margin */
+}
+
+.character p {
+  font-size: 1.3rem; /* Larger font size for character details */
+  margin-bottom: 10px; /* Larger margin */
+}
+
