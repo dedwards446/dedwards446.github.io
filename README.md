@@ -13,7 +13,7 @@
 This project is a gallery of Rick and Morty characters, displaying their images, names, status, and species. The approach taken involves using React and Redux Toolkit for state management, fetching data from the Rick and Morty API using AJAX, and rendering the data dynamically in a carousel format using the react-slick library.
 
 ## Live Site
-The live site can be accessed [here](https://yourgithubusername.github.io) (replace "yourgithubusername" with your actual GitHub username).
+The live site can be accessed [here](https://dedwards446.github.io) 
 
 ## Usage Instructions
 1. Clone the repository to your local machine.
