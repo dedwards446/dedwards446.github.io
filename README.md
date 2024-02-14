@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Rick and Morty Characters Gallery
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- React
+- Redux Toolkit
+- react-slick (for carousel)
+- rick and morty API
+
+## Approach
+This project is a gallery of Rick and Morty characters, displaying their images, names, status, and species. The approach taken involves using React and Redux Toolkit for state management, fetching data from the Rick and Morty API using AJAX, and rendering the data dynamically in a carousel format using the react-slick library.
+
+## Live Site
+The live site can be accessed [here](https://yourgithubusername.github.io) (replace "yourgithubusername" with your actual GitHub username).
+
+## Usage Instructions
+1. Clone the repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
+4. Open your browser and navigate to `http://localhost:3000`.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
